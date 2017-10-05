@@ -40,6 +40,8 @@ namespace FormSaver
                 dateTimePickerBirthday.Text = "";
                 textBoxIsMarried.Text = "";
                 richTextBoxOtherInfo.Text = "";
+                
+                MessageBox.Show("Данные успешно сохранены");
             }
         }
     }
